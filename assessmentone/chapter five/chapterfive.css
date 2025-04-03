@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #505050;
+}
+video {
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(62, 62, 62, 0.3);
+}
