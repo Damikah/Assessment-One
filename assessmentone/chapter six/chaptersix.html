@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="chaptersix.css" type="text/css"> 
+</head>
+<body>
+    <script src="chaptersix.js" type="text/javascript"></script> 
+
+    <div class="container">
+        <h2>Calculator</h2>
+        
+        
+        <label for="Price">Price Per Liter:</label>
+        <input type="number" id="Price" value="5.55" step="0.01">
+        
+        
+        <label for="Liters">Enter Amount of Liters Purchased:</label>
+        <input type="number" id="Liters" value="0" step="0.01">
+        
+        
+        <button onclick="calculateTotal()">Calculate</button>
+        
+        
+        <p id="cost">Total Cost: $0.00</p>
+    </div>
+</body>
+</html>

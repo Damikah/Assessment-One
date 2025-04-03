@@ -1,0 +1,101 @@
+body {
+    font-family: 'Times New Roman', 'Times', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6fd;
+    color: #72d193;
+}
+
+
+header {
+    background: linear-gradient(135deg, #20a350, #ffbc7a);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+nav {
+    background:#000000;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out;
+}
+nav ul li a:hover {
+    color: #b3fca1;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    min-width: 280px;
+    border-radius: 16px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    border: none;
+}
+.box:hover {
+    transform: translateY(-8px);
+    background: #f8e5cb;
+}
+
+
+button {
+    background: linear-gradient(135deg,  #20a350, #ffbc7a);
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    letter-spacing: 1px;
+}
+button:hover {
+    background: linear-gradient(135deg,  #20a350d4, #f8ae64);
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(255, 97, 166, 0.5);
+}
+
+footer {
+    text-align: center;
+    background: #282c35;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1rem;
+    margin-top: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
